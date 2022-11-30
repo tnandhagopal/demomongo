@@ -5,6 +5,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://mongoadmin:secret@localhost:27017/mydb
+#      authentication-database: mongoadmin
+      uri: mongodb://mongoadmin:secret@localhost:27017/mydb?authSource=admin
       database: mydb
       port: 27017
