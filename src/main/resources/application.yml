@@ -1,0 +1,10 @@
+
+#spring.data.mongodb.database:
+#  mygrocerylist
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongoadmin:secret@localhost:27017/mydb
+      database: mydb
+      port: 27017
